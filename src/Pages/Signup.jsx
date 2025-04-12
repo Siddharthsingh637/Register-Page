@@ -11,8 +11,8 @@ const Signup = () => {
             alt="logo"
             className="w-42 mx-auto mb-2"
           />
-          <h1 className="text-3xl font-bold text-gray-800">Create your account</h1>
-          <p className="text-sm text-gray-500 mt-1">Join our community and get access to premium content</p>
+          <h1 className="text-2xl font-bold text-gray-800">Information Management System</h1>
+          <p className="text-sm text-gray-500 mt-1">Please enter your details</p>
         </div>
 
         <form className="space-y-5">
@@ -20,7 +20,7 @@ const Signup = () => {
             <label className="text-sm font-medium text-gray-700">Full Name</label>
             <input
               type="text"
-              placeholder="John Doe"
+              placeholder="Your Name"
               className="w-full mt-1 px-4 py-2 border rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 outline-none"
             />
           </div>
@@ -36,7 +36,7 @@ const Signup = () => {
             <label className="text-sm font-medium text-gray-700">Password</label>
             <input
               type="password"
-              placeholder="••••••••"
+              placeholder="choose your password"
               className="w-full mt-1 px-4 py-2 border rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 outline-none"
             />
           </div>
